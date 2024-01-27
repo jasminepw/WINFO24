@@ -1,5 +1,13 @@
+import Footer from "./components/Footer";
+
 export default function Home() {
   return (
-    <div class='text-center sm:text-left'>hello world!</div>
+    <div>
+      <div class='text-center'>
+        hello world!
+      </div>
+      <Footer />
+    </div>
+
   )
 }
